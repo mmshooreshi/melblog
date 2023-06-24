@@ -1,10 +1,10 @@
 export default defineAppConfig({
   alpine: {
-    title: 'Alpine',
-    description: 'The minimalist blog theme',
+    title: 'MelBlog',
+    description: 'The minimalist DSM-5 cheatsheet',
     image: {
       src: '/social-card-preview.png',
-      alt: 'An image showcasing my project.',
+      alt: 'An image showcasing DSM-5.',
       width: 400,
       height: 300
     },
@@ -13,13 +13,13 @@ export default defineAppConfig({
       logo: {
         path: '/logo.svg', // path of the logo
         pathDark: '/logo-dark.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
-        alt: 'alpine' // alt of the logo
+        alt: 'MelBlog' // alt of the logo
       }
     },
     footer: {
       credits: {
         enabled: true, // possible value are : true | false
-        repository: 'https://www.github.com/nuxt-themes/alpine' // our github repository
+        repository: 'https://www.github.com/mmshooreshi' // our github repository
       },
       navigation: true, // possible value are : true | false
       alignment: 'center', // possible value are : 'none' | 'left' | 'center' | 'right'
@@ -31,7 +31,7 @@ export default defineAppConfig({
       linkedin: {
         icon: 'uil:linkedin',
         label: 'LinkedIn',
-        href: 'https://www.linkedin.com/company/nuxtlabs'
+        href: 'https://www.linkedin.com/'
       }
     },
     form: {
